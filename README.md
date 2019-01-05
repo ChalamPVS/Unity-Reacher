@@ -1,6 +1,12 @@
 Unity ML-Agents Reacher Environment
 ========================================
 
+## Untrained Agent
+![Untrained](images/random-reacher.gif)
+
+## Trained Agent
+![Trained](images/solved-reacher.gif)
+
 This project aims to solve the Unity Reacher Environment (see `Environment Details`) using Deep Reinforcement Learning (specifically, using DDPG - Deep Deterministic Policy Gradient). 
 
 ## Environment Details
@@ -45,13 +51,6 @@ Run the following command on the terminal; doing so will pop up a window on your
 ```shell
 $ jupyter notebook
 ```
-
-## Untrained Agent
-![Untrained](images/random-reacher.gif)
-
-## Trained Agent
-![Trained](images/solved-reacher.gif)
-
 
 ## References
 - [Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver & Daan Wierstra, CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING. ICLR, 2016.](https://arxiv.org/pdf/1509.02971.pdf)
