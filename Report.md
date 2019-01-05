@@ -7,22 +7,22 @@ The DDPG algorithm is an off-policy, model-free policy gradient model inspired f
 
 ### Model Architecture
 - Actor
-
+```
 Actor(
   (fc1): Linear(in_features=33, out_features=400, bias=True)
   (fc2): Linear(in_features=400, out_features=300, bias=True)
   (fc3): Linear(in_features=300, out_features=4, bias=True)
 )
-
+```
 
 - Critic
-
+```
 Critic(
   (fcs1): Linear(in_features=33, out_features=400, bias=True)
   (fc2): Linear(in_features=404, out_features=300, bias=True)
   (fc3): Linear(in_features=300, out_features=1, bias=True)
 )
-
+```
 ### Hyperparameters
 The following are the choice of the hyperparameters:
 - Replay Buffer Size (BUFFER_SIZE): 100000
